@@ -10,7 +10,7 @@
 6. [Conclusions and Recommendations](#conclusions-and-recommendations)
 
 ## Demo
-- **Dynamic Power BI Dashboard**:[Dashboard Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20shop%20sales.pbix)
+- **Dynamic Power BI Dashboard**: [Dashboard Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20shop%20sales.pbix)
 
 *Static screenshot is as follows:*
 ![image](https://github.com/user-attachments/assets/0ac908f5-153c-437f-a0ad-41d123a8b144)
@@ -21,7 +21,7 @@
 This project aims to analyze the sales data of a coffee shop to understand sales trends, customer preferences, and peak sales periods. This analysis will provide data-driven insights to help formulate more effective marketing strategies and operational decisions.
 
 ## Data Description
-- **Data Set**:[Data Set Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20Shop%20Sales.xlsx)
+- **Data Set**: [Data Set Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20Shop%20Sales.xlsx)
 
 The sales data used in this analysis includes the following fields:
 - **transaction_id**: Unique identifier for the transaction
@@ -88,6 +88,11 @@ The data covers the period from January 2023 to June 2023.
    - Utilize a heat map visualize sales patterns by days and hours.
    - Implement tooltios to display detailed metrics (Sales,Orders,Quantity) when hovering over a specific day-hour
 
+## Data Analysis
+Here are some interesting features in PowerBI to work with:
+1. **Tooltip**: Tooltips provide additional information when users hover over data points, offering more context or insights. You can create detailed tooltips that display additional visuals or text.
+2. **Conditional Formatting**: Apply conditional formatting to your visuals to dynamically change their appearance based on data values. This helps in highlighting trends, performance metrics, or outliers effectively.
+3. **Data Model**: A well-structured data model improves performance and allows for more complex analyses.
 
 ## Conclusions and Recommendations
 Based on the sales data analysis, the following conclusions and recommendations are made:
