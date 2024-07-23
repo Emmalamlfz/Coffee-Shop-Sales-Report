@@ -91,8 +91,43 @@ The data covers the period from January 2023 to June 2023.
 ## Data Analysis
 Here are some interesting features in PowerBI to work with:
 1. **Tooltip**: Tooltips provide additional information when users hover over data points, offering more context or insights. You can create detailed tooltips that display additional visuals or text.
+
 2. **Conditional Formatting**: Apply conditional formatting to your visuals to dynamically change their appearance based on data values. This helps in highlighting trends, performance metrics, or outliers effectively.
+
 3. **Data Model**: A well-structured data model improves performance and allows for more complex analyses.
+   
+   - *Date Dimension Table*
+     - *Completely self-created, not part of the original dataset: The date dimension table is completely self-created and is not part of the original dataset. This approach provides greater flexibility and consistency, making time-related analysis more convenient and accurate.*
+     - *Flexibility and Consistency: Having a date dimension table allows for easy analysis across various time dimensions, such as by day, week, month, quarter, and year.*
+       
+   - *Relationship Establishment*
+     - *Relationship between Transactions Table and Date Table: The relationship between the Transactions table and the Date Table is established through the transaction_date and Date fields. This relationship type is many-to-one (multiple transaction records corresponding to one date), which is a common pattern between fact and dimension tables.*
+     - *Many-to-One Relationship: The many-to-one relationship ensures accurate filtering and aggregation of data across the time dimension, guaranteeing the correctness of time-related analyses.*
+     
+![image](https://github.com/user-attachments/assets/cc3d4f15-f9a1-4f6a-acc9-bd9c4c358929)
+
+5. **Measure**: Measures are powerful calculations used in Power BI to perform dynamic data aggregation and analysis. They are written using DAX and provide the ability to create flexible and reusable calculations.
+
+   - **Aggregation**: Measures can perform various aggregation operations like SUM, AVERAGE, COUNT, MIN, and MAX. For example, you can create a measure to calculate the total sales amount.
+   - **Dynamic Calculation**: Measures adjust their calculations based on the context of the report, such as filters and slicers. This means they dynamically update to reflect the data being viewed.
+   - **Complex Calculations**: Measures allow for complex calculations and logic. You can create measures for year-over-year growth, percentage changes, and more.
+   - **Key Performance Indicators (KPIs)**: Measures can be used to create KPIs, helping you track and evaluate business performance. For instance, you can create a measure to calculate the percentage of targets achieved.
+   - **Conditional Formatting**: Measures can serve as the basis for conditional formatting, allowing you to color-code data based on specific conditions. For example, you can highlight sales amounts that exceed a certain threshold.
+
+*An example for calculating Total Sales:*
+```dax
+Total Sales = SUM(Sales[Amount])
+```
+
+*Another DAX example for calculating year-over-year growth:*
+```dax
+YoY Growth = 
+    IF(
+        ISBLANK([Total Sales]),
+        BLANK(),
+        ([Total Sales] - [Total Sales Last Year]) / [Total Sales Last Year]
+    )
+```
 
 ## Conclusions and Recommendations
 Based on the sales data analysis, the following conclusions and recommendations are made:
