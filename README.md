@@ -1,4 +1,6 @@
 # Coffee Shop Sales Data Analysis Report
+![image](https://github.com/user-attachments/assets/0807e23c-a6d6-419d-b9e1-8f3695cd3c06)
+
 
 ## Table of Contents
 
@@ -136,8 +138,6 @@ Based on the sales data analysis, the following conclusions and recommendations 
 2. Peak Periods: Daily sales peak in the morning and afternoon. It is recommended to increase staffing and inventory during these periods.
 3. Best-Selling Products: Latte and Americano are the best-selling products. Consider offering related promotions.
 4. Customer Preferences: Customers purchase more frequently in the morning and afternoon. Special promotions can be launched during these times.
-
-This analysis provides data-driven insights to support more effective marketing strategies and operational optimizations.
 
 
 
