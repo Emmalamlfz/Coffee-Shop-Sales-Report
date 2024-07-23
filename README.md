@@ -11,7 +11,8 @@
 
 ## Demo
 - **Dynamic Power BI Dashboard**:[Dashboard Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20shop%20sales.pbix)
-- *Static screenshot is as follows:*
+
+*Static screenshot is as follows:*
 ![image](https://github.com/user-attachments/assets/0ac908f5-153c-437f-a0ad-41d123a8b144)
 
 
