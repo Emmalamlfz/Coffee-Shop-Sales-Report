@@ -6,10 +6,11 @@
 
 1. [Demo](#Demo)
 2. [Project Background](#project-background)
-3. [Data Description](#data-description)
-4. [KPI's Requirements](#KPI's-Requirements)
-5. [Chart's Requirements](#Chart's-Requirements)
-6. [Conclusions and Recommendations](#conclusions-and-recommendations)
+3. [Tools & Techniques](#Tools-&-Techniques)
+4. [Data Description](#data-description)
+5. [KPI's Requirements](#KPI's-Requirements)
+6. [Chart's Requirements](#Chart's-Requirements)
+7. [Conclusions and Recommendations](#conclusions-and-recommendations)
 
 ## Demo
 - **Dynamic Power BI Dashboard**: [Dashboard Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20shop%20sales.pbix)
@@ -21,6 +22,11 @@
 ## Project Background
 
 This project aims to analyze the sales data of a coffee shop to understand sales trends, customer preferences, and peak sales periods. This analysis will provide data-driven insights to help formulate more effective marketing strategies and operational decisions.
+
+## Tools & Techniques
+- **Power BI**: Power Query, Power Pivot
+- **SQL**
+- **Excel**
 
 ## Data Description
 - **Data Set**: [Data Set Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20Shop%20Sales.xlsx)
