@@ -121,13 +121,13 @@ Here are some interesting features in PowerBI to work with:
 Total Sales = SUM(Sales[Amount])
 ```
 
-*Another DAX example for calculating year-over-year growth:*
+*Another DAX example for calculating month-over-month growth:*
 ```dax
 YoY Growth = 
     IF(
         ISBLANK([Total Sales]),
         BLANK(),
-        ([Total Sales] - [Total Sales Last Year]) / [Total Sales Last Year]
+        ([Total Sales] - [Total Sales Last Month]) / [Total Sales Last Month]
     )
 ```
 
