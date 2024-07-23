@@ -21,6 +21,7 @@
 This project aims to analyze the sales data of a coffee shop to understand sales trends, customer preferences, and peak sales periods. This analysis will provide data-driven insights to help formulate more effective marketing strategies and operational decisions.
 
 ## Data Description
+- **Data Set**:[Data Set Link](https://github.com/Emmalamlfz/Coffee-Shop-Sales-Report/blob/main/Coffee%20Shop%20Sales.xlsx)
 
 The sales data used in this analysis includes the following fields:
 - **transaction_id**: Unique identifier for the transaction
