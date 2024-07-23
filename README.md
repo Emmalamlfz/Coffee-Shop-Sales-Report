@@ -6,7 +6,7 @@
 2. [Project Background](#project-background)
 3. [Data Description](#data-description)
 4. [KPI's Requirements](#KPI's-Requirements)
-5. [Chart's Requirements](#KPI's-Requirements)
+5. [Chart's Requirements](#Chart's-Requirements)
 6. [Conclusions and Recommendations](#conclusions-and-recommendations)
 
 ## Demo
